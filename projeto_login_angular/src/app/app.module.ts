@@ -17,6 +17,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { CadastroProdutoComponent } from './components/cadastro-produto/cadastro-produto.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     InicioComponent,
     LoginComponent,
     MenuComponent,
-    RodapeComponent
+    RodapeComponent,
+    CadastroProdutoComponent
   ],
   imports: [
     BrowserModule,
