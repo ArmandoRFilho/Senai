@@ -1,0 +1,4 @@
+C:\Users\Armando.filho\Documents\senai\LH Pets\obj\Debug\net9.0\LH Pets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando.filho\Documents\senai\LH Pets\obj\Debug\net9.0\LH Pets.AssemblyInfoInputs.cache
+C:\Users\Armando.filho\Documents\senai\LH Pets\obj\Debug\net9.0\LH Pets.AssemblyInfo.cs
+C:\Users\Armando.filho\Documents\senai\LH Pets\obj\Debug\net9.0\LH Pets.csproj.CoreCompileInputs.cache
