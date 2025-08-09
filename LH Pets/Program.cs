@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Controle_cliente;
+// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Informar Nome: ");
 string nome = Console.ReadLine();
 
@@ -8,11 +9,9 @@ string endereco = Console.ReadLine();
 Console.WriteLine("Pessoa Fisica(f) ou juridica (j)?: ");
 string tipo = Console.ReadLine();
 
-if (tipo == "f")
-{
+if (tipo == "f") {
 
-    PessoaFisica pf = new PessoaFisica()
-    {
+    PessoaFisica pf = new PessoaFisica() {
 
         nome = nome,
         endereco = endereco,
@@ -59,11 +58,11 @@ else if (tipo == "j")
     pj.PagarImposto(valor);
 
     Console.WriteLine("---------------------Pessoa Juridica-------------------");
-    Console.WriteLine("Nome: " + pf.nome);
-    Console.WriteLine("endereco: " + pf.endereco);
-    Console.WriteLine("CNPJ: " + pf.CNPJ);
-    Console.WriteLine("Ie: " + pf.ie);
-    Console.WriteLine("Valor da Compra: " + pf.valor.ToString("C"));
-    Console.WriteLine("Imposto: " + pf.valorImposto);
-    Console.WriteLine("Total a pagar: " + pf.total.ToString("C"));
+    Console.WriteLine("Nome: " + pj.nome);
+    Console.WriteLine("endereco: " + pj.endereco);
+    Console.WriteLine("CNPJ: " + pj.cnpj);
+    Console.WriteLine("Ie: " + pj.ie);
+    Console.WriteLine("Valor da Compra: " + pj.valor.ToString("C"));
+    Console.WriteLine("Imposto: " + pj.valorImposto);
+    Console.WriteLine("Total a pagar: " + pj.total.ToString("C"));
 }
